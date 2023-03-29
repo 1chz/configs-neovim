@@ -10,6 +10,7 @@ $ :wq!
 $ nvim ~/.config/nvim/coc-settings.json # 이 저장소의 coc-settings.json를 붙여넣기
 $ :wq!
 
+$ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 $ nvim
 $ :PlugInstall
 $ cd ~/.local/share/nvim/plugged/coc.nvim
