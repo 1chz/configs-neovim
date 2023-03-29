@@ -6,13 +6,17 @@
 $ brew install neovim
 $ brew install ctags
 $ nvim ~/.config/nvim/init.vim # 이 저장소의 init.vim을 붙여넣기
+$ :wq!
 $ nvim ~/.config/nvim/coc-settings.json # 이 저장소의 coc-settings.json를 붙여넣기
+$ :wq!
+
+$ nvim
+$ :PlugInstall
 $ cd ~/.local/share/nvim/plugged/coc.nvim
 $ yarn install
 $ yarn build
 $ pip3 install black flake8 jedi 
 $ nvim 
-$ :PlugInstall
 $ :CocInstall coc-json coc-python coc-java coc-kotlin coc-clangd coc-snippets
 ```
 
